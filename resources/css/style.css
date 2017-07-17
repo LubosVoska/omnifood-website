@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body,
 html {
     background-color: #fff;
     color: #555;
@@ -15,6 +15,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden; 
 }
 
 .clearfix{zoom: 1}
@@ -549,6 +550,7 @@ footer {
 .ion-social-instagram:hover {
     color: #517fa4;
 }
+
 footer p {
     color:  #888;
     text-align: center;
